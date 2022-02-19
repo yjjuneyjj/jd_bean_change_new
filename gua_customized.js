@@ -105,7 +105,7 @@ let nowTime = new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*
     return;
   }
   $.activityId = "unionkbblnt20220218dzlhkk"
-  $.shareUuid = ""
+  $.shareUuid = "10292489a06f4d5ba4bbfe3a0c184c02"
   console.log(`入口:\nhttps://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=${$.activityId}&shareUuid=${$.shareUuid}`)
   let shareUuidArr = [$.shareUuid]
   let s = Math.floor((Math.random()*10))

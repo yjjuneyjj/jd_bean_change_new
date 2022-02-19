@@ -104,10 +104,10 @@ let nowTime = new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*
     });
     return;
   }
-  $.activityId = "628b293b355c42e39d5fea6f583e_20220212"
+  $.activityId = "unionkbblnt20220218dzlhkk"
   $.shareUuid = ""
   console.log(`入口:\nhttps://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=${$.activityId}&shareUuid=${$.shareUuid}`)
-  let shareUuidArr = [$.shareUuid,"169ab13bd67144bcb197cca88ae7341d","d31ba80ac0ac48b393d72c92d1c9e6d3","668ac645e21e48438881cd7e157efef9","5c99866d54b9478dadf820bc1aa2d3f2","cfde85b912f243f398d3cb7448ae2208","2f85f9219aef46fc9be6a4cd1c02e1be","4121f4286704415780a462eef0394f49","f1f7e7edef4241209ea67e6f97200008"]
+  let shareUuidArr = [$.shareUuid]
   let s = Math.floor((Math.random()*10))
   let n = 0
   if(s == 1) n = Math.floor((Math.random()*shareUuidArr.length))

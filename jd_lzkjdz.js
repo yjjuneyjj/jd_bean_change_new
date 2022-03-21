@@ -33,7 +33,7 @@ console.log("脚本部份加密,不喜欢勿跑!!!,10次抽奖机会,3个助力�
     authorCodeList = await getAuthorCodeList('https://gitee.com/fatelight/Code/raw/master/lzkjdz.json')
     if ($.getAuthorCodeListerr === false) {
         authorCodeList = [
-            '44f4b33fb82a41a2a70e700727474ccb',
+            'f6ff4f8e0a184e9facc189e5c9811354',
         ]
     }
     for (let i = 0; i < cookiesArr.length; i++) {
